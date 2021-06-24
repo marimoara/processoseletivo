@@ -1,0 +1,17 @@
+Funcionalidades: login e agendamento
+Cenário: login válido e agendamento válido
+Dado o usuário acessa a página de login
+E o usuário já possui uma conta
+E o usuário entra com o login e senha corretos
+Então o login é concluído com sucesso
+Dado que o usuário está logado no sistema
+E o usuário quer agendar uma consulta
+Então entrar na agenda através do link
+Dado que o horário esteja vago
+Então escolher uma data e horário
+Então selecionar "agendar"
+Então preencher os dados do paciente(Nome e telefone)
+Entao escolher o convênio
+Então clicar em salvar
+Dado que o agendamento foi salvo
+Então verificar se os dados do agendamento estão corretos
